@@ -63,6 +63,14 @@
     },
     "themeColor": {
       "type": "string"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.projects"
+    },
+    "additionalInformation": {
+      "type": "text"
     }
   }
 }
